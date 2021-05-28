@@ -8,7 +8,7 @@ let package = Package(
     platforms: [
         .iOS(.v13),
         .watchOS(.v6),
-        .macOS(.v11)
+        .macOS(.v11_0)
     ],
     products: [
         .library(name: "PageView", targets: ["PageView"]),
